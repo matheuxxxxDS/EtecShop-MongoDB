@@ -1,0 +1,31 @@
+// Acessar o servidor
+mongosh "mongodb+srv://cluster0.q37ppsb.mongodb.net/" --apiVersion 1 --username admin
+
+// Acessar ou Criar o banco
+use EtecShop
+
+// Criar a coleção de Produtos
+db.produtos.insertMany([
+{
+    nome: "Nome do Produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true
+},
+{
+    nome: "Nome do Produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true
+}
+])
