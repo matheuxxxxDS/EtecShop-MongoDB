@@ -1,5 +1,5 @@
 // Acessar o servidor
-mongosh "mongodb+srv://cluster0.q37ppsb.mongodb.net/" --apiVersion 1 --username admin
+mongodb+srv://MatheuxxxDs:<db_password>@cluster0.shiot.mongodb.net/
 
 // Acessar ou Criar o banco
 use EtecShop
